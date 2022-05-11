@@ -215,10 +215,10 @@ int main (){
         read(fd4,flag3,1);
         close(fd4);
         if (flag == 1 && flag2[0] == '1' && flag3[0] == '1'){
-            printf("‫‪Sudoku‬‬ ‫‪Puzzle‬‬ ‫‪constraints‬‬ ‫‪satisfied‬‬\n");
+            printf("Sudoku Puzzle constraints satisfied‬‬\n");
         }
         else{
-            printf("‫‪Sudoku‬‬ ‫‪Puzzle‬‬ ‫‪is‬‬ ‫‪Wrong‬‬");
+            printf("Sudoku Puzzle is wrong\n");
         }
     }
 
